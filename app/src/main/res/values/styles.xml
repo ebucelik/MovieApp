@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="layout_marginTopBottom">
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/layout_marginBottom</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imageDescription_of_movie">Image of the movie Queens Gambit.</string>
+    <string name="creators">Creators:</string>
+    <string name="actors">Actors:</string>
+    <string name="storyTitle">Story</string>
+</resources>
