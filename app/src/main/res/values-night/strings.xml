@@ -4,4 +4,6 @@
     <string name="creators">Creators:</string>
     <string name="actors">Actors:</string>
     <string name="storyTitle">Story</string>
+    <string name="menu_item_watchlist">To Watchlist</string>
+    <string name="to_homefragment">To Home Fragment</string>
 </resources>
