@@ -1,18 +1,194 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:clickable="true"
-        android:focusable="true">
+        android:orientation="vertical"
+        android:background="@color/black">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="50sp"
-            android:text="Test 123456"
+            android:text="@string/welcome_to_movieapp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:layout_margin="16dp"
             />
-    </com.google.android.material.card.MaterialCardView>
-
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/cardview_dark_background">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/cardTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="The Queen's Gambit"/>
+                <TextView
+                    android:id="@+id/cardDirector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Scott Frank, Alan Scott"/>
+                <TextView
+                    android:id="@+id/cardActor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:text="Anya Taylor-Joy, Chloe Pirrie"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cardButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_detail"
+                    android:backgroundTint="@color/yellow"
+                    android:textSize="10sp"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/cardview_dark_background">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/card1Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="Marvel's The Avengers"/>
+                <TextView
+                    android:id="@+id/card1Director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Joss Whedon"/>
+                <TextView
+                    android:id="@+id/card1Actor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:text="Robert Downey Jr., Scarlett Johansson, Chris Evans"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/card1Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_detail"
+                    android:backgroundTint="@color/yellow"
+                    android:textSize="10sp"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/cardview_dark_background">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/card2Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="The Imitation Game"/>
+                <TextView
+                    android:id="@+id/card2Director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Morten Tyldum"/>
+                <TextView
+                    android:id="@+id/card2Actor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:text="Benedict Cumberbatch, Keira Knightly"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/card2Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_detail"
+                    android:backgroundTint="@color/yellow"
+                    android:textSize="10sp"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/cardview_dark_background">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="right"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/card3Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="The Wolf of Wallstreet"/>
+                <TextView
+                    android:id="@+id/card3Director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Martin Scorsese"/>
+                <TextView
+                    android:id="@+id/card3Actor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:text="Leonardo DiCaprio, Jordan Belfort, Jonah Hill"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/card3Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_detail"
+                    android:backgroundTint="@color/yellow"
+                    android:textSize="10sp"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    </ScrollView>
 </layout>

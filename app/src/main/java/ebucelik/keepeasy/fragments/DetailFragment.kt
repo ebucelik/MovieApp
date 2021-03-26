@@ -22,8 +22,20 @@ class DetailFragment : Fragment() {
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_detail, container, false)
 
-        binding.movie = Movie("The Queen's Gambit", resources.getString(R.string.description), 4.5f, "Drama, Sport",
-            "Scott Frank, Alan Scott", "Anya Taylor-Joy, Chloe Pirrie")
+        binding.movie = HomeFragment.movie
+
+        if(HomeFragment.movie.title == "The Queen's Gambit")
+        {
+            binding.queensGambitImage.setImageResource(R.drawable.queensgambit)
+        }else if(HomeFragment.movie.title == "Marvel's The Avengers")
+        {
+            binding.queensGambitImage.setImageResource(R.drawable.avengers)
+        }else if(HomeFragment.movie.title == "The Imitation Game")
+        {
+            binding.queensGambitImage.setImageResource(R.drawable.imitationgame)
+        }else{
+            binding.queensGambitImage.setImageResource(R.drawable.wolf)
+        }
 
         binding.floatingActionButton.setOnClickListener {
             Toast.makeText(activity?.baseContext, "FAB is clicked.", Toast.LENGTH_SHORT).show()

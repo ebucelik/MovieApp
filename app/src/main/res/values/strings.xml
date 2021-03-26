@@ -10,5 +10,16 @@ The story begins in Lexington, Kentucky, where a nine-year-old Beth, having lost
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_item_watchlist">To Watchlist</string>
-    <string name="to_homefragment">To Home Fragment</string>
+    <string name="welcome_to_movieapp">Welcome to MovieApp!</string>
+    <string name="see_detail">SEE DETAIL</string>
+    <string name="marvelsDescription">
+        Loki, der Halbbruder des Donnergottes Thor, will die Erde unterjochen. Um der Menschheit diese Zukunft zu ersparen, ruft Nick Fury, Chef der geheimen Regierungsbehörde und Friedensorganisation S.H.I.E.L.D., die größten Helden der Welt zusammen. Captain America wird aus seinem jahrzehntelangen Schlaf geweckt und schließlich greift Fury zudem auf die Dienste des egozentrischen Tony Stark, aka Iron Man, zurück. Auch der Wissenschaftler Dr. Bruce Banner wird ins Team gelockt.
+    </string>
+    <string name="imitationDescription">
+        Der britische Geheimdienst engagiert im Zweiten Weltkrieg den Mathematiker Alan Turing für eine heikle Mission: Er soll mit seinem Team den Enigma-Geheimcode der deutschen Wehrmacht entschlüsseln. Mit seiner komplexen Entschlüsselungsmaschine gelingt dem Genie der Durchbruch. Turing wird zum gefeierten Star. Doch auch er hat ein Geheimnis, das nicht in die falschen Ohren gelangen darf: Er ist homosexuell. 1952 wird dem ehemaligen Helden dieses Vergehen zum Verhängnis.
+    </string>
+    <string name="wolfDescription">
+        Mit Anfang 20 gründet der Aktienhändler Jordan Belfort seine eigene Firma, die schnell zum großen Erfolg wird. Er wird zum Multimillionär und Star an der New Yorker Börse, der von allen nur Wolf of Wall Street genannt wird. Jordan genießt sein ausschweifendes Luxusleben in vollen Zügen und fühlt sich unbesiegbar. Seine unstillbare Gier nach mehr Geld bringt ihn schließlich dazu, sich gemeinsam mit seinen Freunden auf illegale Geschäfte einzulassen. Doch das FBI ist ihm bald auf den Fersen.
+    </string>
+    <string name="watchlist">My Watchlist</string>
 </resources>
